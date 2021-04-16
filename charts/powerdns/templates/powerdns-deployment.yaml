@@ -43,6 +43,8 @@ spec:
           resources:
 {{ toYaml .Values.powerdns.resources | indent 12 }}
           env:
+          - name: VAITOMAR
+            value: "NOCU"
           - name: PDNS_api_key
             valueFrom:
               secretKeyRef:

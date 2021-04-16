@@ -73,7 +73,7 @@ spec:
             value: "ns1.{{ .Values.powerdns.domain }}"
           - name: PDNS_default_soa_mail
             value: "hostmaster.{{ .Values.powerdns.domain }}"
-          - name: PDNS_enable_lua_redords
+          - name: PDNS_enable_lua_records
             value: {{ .Values.powerdns.enable_lua_records }}
           - name: PDNS_gmysql_innodb_read_committed
             value: {{ .Values.powerdns.innodb_read_committed | quote }}

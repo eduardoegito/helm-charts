@@ -82,7 +82,7 @@ spec:
           - name: PDNS_elog_dns_queries
             value: {{ .Values.powerdns.log_dns_queries | quote }}
           - name: PDNS_loglevel
-            value: {{ .Values.powerdns.loglevel }}
+            value: {{ .Values.powerdns.loglevel | quote }}
           - name: PDNS_gmysql_innodb_read_committed
             value: {{ .Values.powerdns.innodb_read_committed | quote }}
           - name: MYSQL_ENV_MYSQL_HOST

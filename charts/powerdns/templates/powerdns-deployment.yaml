@@ -79,7 +79,7 @@ spec:
             value: {{ .Values.powerdns.enable_lua_records | quote }}
           - name: PDNS_edns_subnet_processing
             value: {{ .Values.powerdns.edns_subnet_processing | quote }}
-          - name: PDNS_elog_dns_queries
+          - name: PDNS_log_dns_queries
             value: {{ .Values.powerdns.log_dns_queries | quote }}
           - name: PDNS_loglevel
             value: {{ .Values.powerdns.loglevel | quote }}

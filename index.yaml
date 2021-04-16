@@ -3,7 +3,17 @@ entries:
   powerdns:
   - apiVersion: v2
     appVersion: 4.3.4
-    created: "2021-04-15T22:19:47.740847-03:00"
+    created: "2021-04-15T22:31:15.649366-03:00"
+    description: A Helm chart for Kubernetes
+    digest: a133d14f2aa3baed42c157650882353cc43a70c44d1a641e9dd00092affcbace
+    name: powerdns
+    type: application
+    urls:
+    - powerdns-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 4.3.4
+    created: "2021-04-15T22:31:15.648208-03:00"
     description: A Helm chart for Kubernetes
     digest: 9b846572652a6d7885c067e57504f75dafbc7784c9c2799e10fef11185ee8d66
     name: powerdns
@@ -13,7 +23,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 4.3.4
-    created: "2021-04-15T22:19:47.739325-03:00"
+    created: "2021-04-15T22:31:15.64607-03:00"
     description: A Helm chart for Kubernetes
     digest: ef8ab90e4a3f99072b12aebaedf191ac877c5e8fe03e0c2f30e10e554fb4029e
     name: powerdns
@@ -23,7 +33,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 4.3.4
-    created: "2021-04-15T22:19:47.738039-03:00"
+    created: "2021-04-15T22:31:15.643602-03:00"
     description: A Helm chart for Kubernetes
     digest: 4e28109706ae6ea1035a200ab3ef78ef451bc49131fa6bfbd8407eca4e03410f
     name: powerdns
@@ -31,4 +41,4 @@ entries:
     urls:
     - powerdns-0.1.11.tgz
     version: 0.1.11
-generated: "2021-04-15T22:19:47.735462-03:00"
+generated: "2021-04-15T22:31:15.639962-03:00"

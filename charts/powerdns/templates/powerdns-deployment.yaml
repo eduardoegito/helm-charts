@@ -77,6 +77,12 @@ spec:
             value: "hostmaster.{{ .Values.powerdns.domain }}"
           - name: PDNS_enable_lua_records
             value: {{ .Values.powerdns.enable_lua_records | quote }}
+          - name: PDNS_edns_subnet_processing
+            value: {{ .Values.powerdns.edns_subnet_processing | quote }}
+          - name: PDNS_elog_dns_queries
+            value: {{ .Values.powerdns.log_dns_queries | quote }}
+          - name: PDNS_loglevel
+            value: {{ .Values.powerdns.loglevel }}
           - name: PDNS_gmysql_innodb_read_committed
             value: {{ .Values.powerdns.innodb_read_committed | quote }}
           - name: MYSQL_ENV_MYSQL_HOST
